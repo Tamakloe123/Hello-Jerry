@@ -1,0 +1,27 @@
+body{
+    background: url(img17.jpg);
+    margin: 0;
+}
+.top{
+    background: rgb(206, 211, 206);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.circle{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pop{
+    background: rgb(93, 93, 95);
+    margin: 10px;
+    height: 50px;
+    border-radius: 4px;
+}
+.pop:hover{
+    color: red;
+    opacity: 0.9;
+}
